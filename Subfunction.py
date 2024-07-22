@@ -105,7 +105,7 @@ def training_nor_2(input_patch, label_patch, normalization_factor):
 
 
 def network_128to64():
-    model = Net_hid3_1(128, 512, 256, 128, 64)
+    model = Net_hid3_1(128, 256, 192, 96, 64)
     return model
 
 
